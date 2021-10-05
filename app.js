@@ -1,3 +1,4 @@
+const { json } = require('express')
 const express = require('express')
 const https = require('https')
 
@@ -10,6 +11,10 @@ app.use(express.urlencoded({extended: true}))
 
 app.get('/', function(req,res){
     res.sendFile(__dirname + '/login.html')
+})
+
+app.post('/', function(req,res){
+    json.log(req);
 })
 
 // app.post(3000, '25.31.13.87', (req, res) => {
