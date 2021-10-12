@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T11:09:49.131Z" agent="5.0 (X11)" etag="jWYKYnPNZ9GlIpwenUfV" version="15.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-12T11:10:49.400Z" agent="5.0 (X11)" etag="F2CbZWnGzBhwbDLNM6OP" version="15.5.0" type="github" pages="3">
   <diagram id="T2RNOw0BPEMfBJu6Xnur" name="Owner">
     <mxGraphModel dx="2340" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -483,6 +483,14 @@
         <mxCell id="SsIWu9I1toDIG-TeM1FG-11" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="M2oWjrfUgRRYDuEwu9WT-1">
           <mxGeometry x="560" y="290" width="30" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fXa4CuPjc3eceKF_5ZCw" name="Barber">
+    <mxGraphModel dx="1240" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="E8wGlw3HZdSGHIwKhhVw-0" />
+        <mxCell id="E8wGlw3HZdSGHIwKhhVw-1" parent="E8wGlw3HZdSGHIwKhhVw-0" />
       </root>
     </mxGraphModel>
   </diagram>
