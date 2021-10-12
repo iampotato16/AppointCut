@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.noStyle.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-grid.css">
+  <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-alpine.css">
+</head>
+<body>
+  <h1>Hello from AG Grid!</h1>
+
+  <div id="myGrid" style="height: 600px;width:500px;" class="ag-theme-alpine"></div>
+
+  <script type="text/javascript" charset="utf-8">
+    // specify the columns
+    const columnDefs = [
+   { field: "ID", sortable: true, width: 100 },
+   { field: "Name", sortable: true, width: 150 },
+   // {
+   //    field: '', width: 50, cellRenderer: function (params) {
+   //       return '<a class="i-edit"><i class="bi bi-pencil"></i></a>'
+   //    }
+   // },
+   // {
+   //    field: '', width: 50, cellRenderer: function (params) {
+   //       return '<a class="i-edit"><i class="bi bi-x"></i></i></a>'
+   //    }
+   // }
+];
+
+// face shape, services, citu, specialization, category, barangay, haircuts 
+const rowDataFaceShape = [
+   { ID: "0001", Name: "Square" },
+   { ID: "0002", Name: "Circle" },
+   { ID: "0003", Name: "Oval" },
+   { ID: "0004", Name: "Oblong" },
+   { ID: "0005", Name: "Diamond" },
+   { ID: "0006", Name: "Square" }
+];
+
+    // let the grid know which columns to use
+const gridOptionsFaceShape = {
+   defaultColDef: {
+      resizable: true,
+   },
+   columnDefs: columnDefs,
+   rowData: rowDataFaceShape,
+   domLayout: 'autoHeight'
+};
+
+  // lookup the container we want the Grid to use
+  const eGridDiv = document.querySelector('#myGrid');
+
+  // create the grid passing in the div to use together with the columns & data we want to use
+  new agGrid.Grid(eGridDiv, gridOptionsFaceShape);
+gridOptionsFaceShape.api.sizeColumnsToFit();
+  // fetch the row data to use and one ready provide it to the Grid via the Grid API
+//   agGrid.simpleHttpRequest({url: 'https://www.ag-grid.com/example-assets/row-data.json'})
+//       .then(data => {
+//           gridOptions.api.setRowData(data);
+//       });
+
+  </script>
+</body>
+</html>

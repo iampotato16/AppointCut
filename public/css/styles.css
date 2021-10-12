@@ -2,119 +2,138 @@
 black: 151515
 yellow: f1c644
 white: f5f5f5 */
+html,
+body {
+   font-family: "Montserrat", monospace;
+   font-weight: 300;
+   background-size: cover;
 
-body{
-    font-family: 'Montserrat', monospace;
-    font-weight: 300;
-    background-size: cover;
+   /* modif */
+   font-size: 1rem;
+   min-height: 100vh;
+   min-height: -webkit-fill-available;
 }
 
-.reg-file-btn{
-    background-color: #151515;
-    color: #f5f5f5;
+/* added to remove inline css from body
+used in admin pages  */
+.body-container {
+   margin: 0;
+   max-width: 100%;
+}
+
+.reg-file-btn {
+   background-color: #151515;
+   color: #f5f5f5;
 }
 
 /* PAKIRENAME PO PLEASE 
 USED IN SIGNUP */
-.attachment-border{
-  padding: .25rem;
-  background-color: #f5f5f5;
+.attachment-border {
+   padding: 0.25rem;
+   background-color: #f5f5f5;
 }
 
-.header-letter-space{
-    letter-spacing: 3.5px;
+/* find bootstrap class for this */
+.header-letter-space {
+   letter-spacing: 3.5px;
 }
 
-.font-small{
-    font-size: .75rem;
+/* find bootstrap class for this */
+.font-small {
+   font-size: 0.75rem;
 }
 
-.logo-reg-log{
-    width: 50%;
+.font-smaller {
+   font-size: 0.7rem;
 }
 
-.bg-black{
-    background-color: #151515;
-    color: #f5f5f5;
+.bg-black {
+   background-color: #151515;
+   color: #f5f5f5;
 }
-.btn-custom-reg-log{
-    background-color: #f1c644;
-    border-color: #f1c644;
-    color: #151515;
+
+.btn-custom-reg-log {
+   background-color: #f1c644;
+   border-color: #f1c644;
+   color: #151515;
 }
 /* container is set to minimum height of 768px or standard browser height size */
-.container{
-    min-height: 768px;
+.container {
+   min-height: 768px;
 }
 
-.no-overflow{
-    overflow: hidden;
+.center-div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-.center-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.right{
-    text-align: right;
-}
-.center{
-    text-align: center;
+/* overridden class from bs */
+.card {
+   border: none;
+   border-radius: 0%;
 }
 
-/* .card{
-    width: 784px; 
-    border: none;
-} */
-
-.card-cus{
-  width: 784px; 
-  height: 463px;
-  border: none;
-  background-color: white;
+/* new addition, used in signup
+para sa card width */
+#card-signup {
+   max-width: 83.33%;
 }
 
-.card-col{
-    height: 463px;
+/* new addition used in signup 
+para sa card body */
+#card-body-signup {
+   padding: 2rem 9rem;
+}
+
+.card-cus {
+   width: 784px;
+   height: 463px;
+   border: none;
+   background-color: white;
+}
+
+.card-col {
+   height: 463px;
+}
+
+/* used in signup
+change to rem  */
+.form-group {
+   height: 295px;
+}
+
+#login-logo {
+   display: block;
+   width: 50%;
+}
+
+/* used in signup, bagong lagay */
+#addImageDiv {
+   width: 5rem;
+   height: 5rem;
+   background: #f1c644;
+   border-radius: 50%;
+}
+
+/* used in signup, bagong lagay */
+#cameraDiv {
+   width: 1.75rem;
+   height: 1.75rem;
+   background: black;
+   border-radius: 50%;
+   position: absolute;
+   z-index: 1;
+   right: 0;
+   bottom: 0;
 }
 
 /* =============BOOTSTRAP============== */
-html,
-body {
-  height: 100%;
-}
-
-body {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f5f5f5;
-}
-.form-padding{
-  padding: 1rem;
-}
-
-/* pls refactor */
-.form-signup {
-  width: 100%;
-  padding: 15px;
-  margin: 0 auto;
-}
-
 .form-signin {
-  width: 100%;
-  max-width: 280px;
-  padding: 15px;
-  margin: 0 auto;
+   width: 100%;
+   max-width: 280px;
+   padding: 15px;
+   margin: 0 auto;
 }
 
 /* .form-signin .checkbox {
@@ -122,26 +141,42 @@ body {
 } */
 
 .form-control {
-  position: relative;
-  box-sizing: border-box;
-  height: auto;
-  padding: 10px;
+   position: relative;
+   box-sizing: border-box;
+   height: auto;
+   padding: 10px;
+   color: black;
+}
+
+/* BAGONG DAGDAG */
+/* for testing only, need pa ayusin, 
+used in registration */
+
+.fw-800 {
+   font-weight: 800;
+}
+#displayPic {
+   color: black;
+   font-weight: 800;
+}
+
+#displayPic:hover {
+   color: blue;
 }
 
 @media only screen and (min-width: 992px) {
-  #xxr1{
-    padding-right: .25rem;
-  }
+   #xxr1 {
+      padding-right: 0.25rem;
+   }
 
-  #xxl1{
-    padding-left: .25rem;
-  }
-  #xxr2{
-    padding-right: .25rem;
-  }
+   #xxl1 {
+      padding-left: 0.25rem;
+   }
+   #xxr2 {
+      padding-right: 0.25rem;
+   }
 
-  #xxl2{
-    padding-left: .25rem;
-  }
-  
+   #xxl2 {
+      padding-left: 0.25rem;
+   }
 }
