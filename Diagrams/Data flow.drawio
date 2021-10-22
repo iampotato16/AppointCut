@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-22T08:59:23.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="088d098BdvoM9TlRqXrY" version="15.5.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-10-22T09:00:12.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="Kf4inKnOStTRAqGLMZDg" version="15.5.4" type="github" pages="5">
   <diagram id="T2RNOw0BPEMfBJu6Xnur" name="Owner">
     <mxGraphModel dx="1673" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -530,49 +530,18 @@
         <mxCell id="4d9gYtgz2TUcgw3iVqyM-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.drop;rotation=-105;" parent="4d9gYtgz2TUcgw3iVqyM-0" vertex="1">
           <mxGeometry x="475.17499635355523" y="145.296" width="18.16186761448166" height="30.27" as="geometry" />
         </mxCell>
-        <mxCell id="MseEcRi2OqFZ8jqpald8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="M2oWjrfUgRRYDuEwu9WT-1" source="SsIWu9I1toDIG-TeM1FG-7" target="MseEcRi2OqFZ8jqpald8-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="675" y="780" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MseEcRi2OqFZ8jqpald8-12" value="Schedule Details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MseEcRi2OqFZ8jqpald8-3">
-          <mxGeometry x="0.1152" y="3" relative="1" as="geometry">
-            <mxPoint x="-26" y="-3" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kqJbw3ITdDqjSNNFoGYl-0" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;" vertex="1" parent="M2oWjrfUgRRYDuEwu9WT-1">
           <mxGeometry x="340" y="720" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kqJbw3ITdDqjSNNFoGYl-1" value="View Shop Feedback" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kqJbw3ITdDqjSNNFoGYl-0">
           <mxGeometry y="20" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MseEcRi2OqFZ8jqpald8-7" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;" vertex="1" parent="M2oWjrfUgRRYDuEwu9WT-1">
-          <mxGeometry x="340" y="740" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MseEcRi2OqFZ8jqpald8-8" value="View Schedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MseEcRi2OqFZ8jqpald8-7">
-          <mxGeometry y="20" width="100" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="EsfE9xk2G7EhEZzO8cBS-0" value="Shop Feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="M2oWjrfUgRRYDuEwu9WT-1" source="kqJbw3ITdDqjSNNFoGYl-1" target="NshiFeFBcIIQcIrEiA9f-0">
           <mxGeometry x="-0.5143" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="120" y="760" />
+              <mxPoint x="110" y="760" />
             </Array>
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MseEcRi2OqFZ8jqpald8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="M2oWjrfUgRRYDuEwu9WT-1" source="MseEcRi2OqFZ8jqpald8-8" target="NshiFeFBcIIQcIrEiA9f-0">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="40" y="780" />
-              <mxPoint x="40" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MseEcRi2OqFZ8jqpald8-13" value="Shop Schedule Details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MseEcRi2OqFZ8jqpald8-10">
-          <mxGeometry x="-0.5385" y="-1" relative="1" as="geometry">
-            <mxPoint x="-10" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EsfE9xk2G7EhEZzO8cBS-1" value="" style="group" connectable="0" vertex="1" parent="M2oWjrfUgRRYDuEwu9WT-1">
@@ -608,7 +577,7 @@
         <mxCell id="EsfE9xk2G7EhEZzO8cBS-14" value="Barber Feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="M2oWjrfUgRRYDuEwu9WT-1" source="EsfE9xk2G7EhEZzO8cBS-8" target="NshiFeFBcIIQcIrEiA9f-0">
           <mxGeometry x="-0.7143" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="110" y="870" />
+              <mxPoint x="90" y="870" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
