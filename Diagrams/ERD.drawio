@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T10:06:41.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="ff5Cl-rQmVGHOxuPFt9t" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T10:12:54.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="MVz75NkDQROGM5QystV-" version="15.7.3" type="github">
   <diagram id="D28bbQQ5G0SR2hDeYNH8" name="ERD">
     <mxGraphModel dx="2773" dy="1758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1478,7 +1478,7 @@
         <mxCell id="7OXYbGOufun6J3akpaj4-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7OXYbGOufun6J3akpaj4-32" target="wsjYaRWgcaUCO_AKfQyl-98" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7OXYbGOufun6J3akpaj4-83" value="tblEmployeeType" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="7OXYbGOufun6J3akpaj4-83" value="tblemployeetype" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-251" y="-69" width="330" height="160" as="geometry" />
         </mxCell>
         <mxCell id="7OXYbGOufun6J3akpaj4-84" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7OXYbGOufun6J3akpaj4-83" vertex="1">
@@ -1561,7 +1561,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6NWZPnEzveL596uwaTMD-3" value="tblSalaryRecords" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="6NWZPnEzveL596uwaTMD-3" value="tblsalaryrecords" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="134" y="-197" width="330" height="160" as="geometry" />
         </mxCell>
         <mxCell id="6NWZPnEzveL596uwaTMD-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6NWZPnEzveL596uwaTMD-3" vertex="1">
@@ -1811,7 +1811,7 @@
             <mxPoint x="1682" y="88" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6NWZPnEzveL596uwaTMD-170" value="tblSchedule" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="6NWZPnEzveL596uwaTMD-170" value="tblschedule" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="134" y="-515" width="330" height="309.75" as="geometry" />
         </mxCell>
         <mxCell id="6NWZPnEzveL596uwaTMD-171" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6NWZPnEzveL596uwaTMD-170" vertex="1">
